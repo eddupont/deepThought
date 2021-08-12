@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 REPOSITORY="https://github.com/th3m1s-42/deepThough/tree/main/masterNode/config-files/"
-TEMPLATE_DIR="/tmp/GitHub/masterNode"
+TEMPLATE_DIR="/tmp/GitHub/masterNode-config"
 PWD=$TEMPLATE_DIR
 
 # upgrade Raspberry Pi OS
