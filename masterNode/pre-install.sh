@@ -11,7 +11,7 @@ PWD=$TEMPLATE_DIR
 # install some usefull packages
 
 
-# copy config templates from repository
+# download config templates from repository
 if [[ ! -d $TEMPLATE_DIR ]];
   then mkdir -p $TEMPLATE_DIR
 fi
