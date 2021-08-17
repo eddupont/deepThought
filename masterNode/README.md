@@ -1,8 +1,10 @@
 Prompt look like `pi@raspberry:~ $ `, 
 exec the commands:
 ``` sh
-sudo mkdir -p /tmp/GitHub/masterNode-config
-cd /tmp/GitHub/masterNode-config
+sudo mkdir -p /var/local/GitHub/masterNode
+cd /var/local/GitHub/masterNode
+
+git clone github.com/th3m1s-42/deepThought/tree/main/masterNode/ ./
 
 sudo pre-install.sh
 sudo reboot
