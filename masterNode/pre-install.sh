@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
+# run this script as 'root'
+
 # prepare Raspberry Pi OS with basic configuration
 
-REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/config-files/"
-TEMPLATE_DIR="/tmp/GitHub/masterNode-config"
+REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/"
+TEMPLATE_DIR="/var/local/GitHub/masterNode/"
 PWD=$TEMPLATE_DIR
 
 # upgrade Raspberry Pi OS
@@ -19,10 +21,5 @@ PWD=$TEMPLATE_DIR
 #mkdir /home/pi/bin /home/pi/dt-bin
 #chown pi:pi /home/pi/bin /home/pi/dt-bin
 
-
-# download config templates from repository
-if [[ ! -d $TEMPLATE_DIR ]];
-  then mkdir -p $TEMPLATE_DIR
-fi
 echo $PWD
-#git clone $REPOSITORY $TEMPLATE_DIR
+# 
