@@ -21,10 +21,5 @@ PWD=$TEMPLATE_DIR
 #mkdir /home/pi/bin /home/pi/dt-bin
 #chown pi:pi /home/pi/bin /home/pi/dt-bin
 
-
-# download config templates from repository
-if [[ ! -d $TEMPLATE_DIR ]];
-  then mkdir -p $TEMPLATE_DIR
-fi
 echo $PWD
-#git clone $REPOSITORY $TEMPLATE_DIR
+# 
