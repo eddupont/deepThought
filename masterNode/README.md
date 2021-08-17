@@ -6,7 +6,7 @@ cd /var/local/GitHub/masterNode
 
 git clone github.com/th3m1s-42/deepThought/tree/main/masterNode/ ./
 
-sudo pre-install.sh
+sudo pre-install.sh # why not 'make' instead?
 sudo reboot
 ```
 Now, prompt look like `pi@alpha:~ $ `, 
