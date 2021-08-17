@@ -1,6 +1,8 @@
 Prompt look like `pi@raspberry:~ $ `, 
 exec the commands:
 ``` sh
+sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install git
 
 sudo mkdir -p /var/local/GitHub/masterNode
