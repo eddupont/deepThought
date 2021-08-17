@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# run this script as 'root'
+
 # prepare Raspberry Pi OS with basic configuration
 
 REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/config-files/"
