@@ -4,8 +4,8 @@
 
 # prepare Raspberry Pi OS with basic configuration
 
-REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/config-files/"
-TEMPLATE_DIR="/var/local/GitHub/masterNode-config"
+REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/"
+TEMPLATE_DIR="/var/local/GitHub/masterNode/"
 PWD=$TEMPLATE_DIR
 
 # upgrade Raspberry Pi OS
