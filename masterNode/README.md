@@ -6,11 +6,14 @@ cd /var/local/GitHub/masterNode
 
 git clone github.com/th3m1s-42/deepThought/tree/main/masterNode/ ./
 
-sudo pre-install.sh # why not 'make' instead?
+chmod +x ./*.sh ./*.py
+sudo pre-install.sh     # why not 'make' instead?
 sudo reboot
 ```
 Now, prompt look like `pi@alpha:~ $ `, 
 exec the commands:
 ``` sh
-user-install.sh
-sudo install.py
+ssh-keygen -t rsa -N ""
+ssh-copy-id 10.22.12.1
+
+sudo /var/local/GitHub/masterNode/install.py
