@@ -4,9 +4,7 @@
 
 # prepare Raspberry Pi OS with basic configuration
 
-REPOSITORY="https://github.com/th3m1s-42/deepThought/tree/main/masterNode/"
 TEMPLATE_DIR="/var/local/GitHub/masterNode/"
-PWD=$TEMPLATE_DIR
 
 # upgrade Raspberry Pi OS
 #apt-get update
@@ -21,5 +19,4 @@ PWD=$TEMPLATE_DIR
 #mkdir /home/pi/bin /home/pi/dt-bin
 #chown pi:pi /home/pi/bin /home/pi/dt-bin
 
-echo $PWD
 # 
