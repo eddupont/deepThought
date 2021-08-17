@@ -1,6 +1,9 @@
 Prompt look like `pi@raspberry:~ $ `, 
 exec the commands:
 ``` sh
+sudo mkdir -p /tmp/GitHub/masterNode-config
+cd /tmp/GitHub/masterNode-config
+
 sudo pre-install.sh
 sudo reboot
 ```
